@@ -3,7 +3,7 @@
     "id": "next-folder-task",
     "name": "Generate Next Folder Name Task",
     "version": "0.0.1",
-    "publisher": "Dushyant Priyadarshee",
+    "publisher": "dp7g09",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
