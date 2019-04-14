@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "next-folder-task",
-    "name": "Generate Next Folder Name Task",
+    "name": "Folder Name Generator",
     "version": "0.0.1",
     "publisher": "dp7g09",
     "targets": [
