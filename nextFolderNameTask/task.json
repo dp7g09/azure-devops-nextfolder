@@ -19,7 +19,7 @@
             "label": "Folder to check.",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "Folder location to check for existing folder to generate next name. Viz. \\fileshare\ReleaseCandidates which could have RC1, RC2, then RC3 will be the result."
+            "helpMarkDown": "Folder location to check for existing folder to generate next name. Viz. //fileshare//ReleaseCandidates which could have RC1, RC2, then RC3 will be the result."
         },
         {
             "name": "folderNamePrefix",
