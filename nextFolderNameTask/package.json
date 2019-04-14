@@ -1,0 +1,34 @@
+{
+  "name": "azure-devops-nextfolder",
+  "version": "1.0.0",
+  "description": "Set Azure DevOps variable(s) with next folder name incremented from existing names. E.g. RC3, if RC1 & RC2 already exist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dp7g09/azure-devops-nextfolder.git"
+  },
+  "keywords": [
+    "increment",
+    "folder",
+    "directory",
+    "azure",
+    "devops",
+    "server",
+    "variable",
+    "environment"
+  ],
+  "author": "Dushyant Priyadarshee",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dp7g09/azure-devops-nextfolder/issues"
+  },
+  "homepage": "https://github.com/dp7g09/azure-devops-nextfolder#readme",
+  "dependencies": {
+    "@types/node": "^11.13.4",
+    "@types/q": "^1.5.2",
+    "azure-pipelines-task-lib": "^2.8.0"
+  }
+}

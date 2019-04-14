@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "next-folder-task",
+    "name": "Generate Next Folder Name Task",
+    "version": "0.0.1",
+    "publisher": "Dushyant Priyadarshee",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Set Azure DevOps variable(s) with next folder name incremented from existing names. E.g. RC3, if RC1 & RC2 already exist.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "files": [
+        {
+            "path": "nextFolderNameTask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "custom-build-release-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "nextFolderNameTask"
+            }
+        }
+    ]
+}
