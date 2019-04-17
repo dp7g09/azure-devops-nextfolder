@@ -22,7 +22,7 @@ export function getDirItems(folderPath :string, filterTerm: string) : string
         console.log("Filtering with term: " + filterTerm);
         files.forEach(function (file: string) {
             // Do whatever you want to do with the file
-            if (file.match('RC'))
+            if (file.match(filterTerm))
             {
                 var numberString = file.replace(filterTerm, '');
                 var number = parseInt(numberString);
