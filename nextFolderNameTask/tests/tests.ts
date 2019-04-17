@@ -17,4 +17,11 @@ describe('Test NextNameGenerator', function () {
         assert.equal(nextName, 'RC3', 'Next name should have been RC3.');
         done();
     });
+
+    it('Should work for folder with a missing number in sequence', function(done: Mocha.Done) {
+        this.timeout(20000);
+        var nextName = getDirItems('.//tests//TestData//SequenceMissing', 'RC');
+        assert.equal(nextName, 'RC5', 'Next name should have been RC5.');
+        done();
+    });
 });
