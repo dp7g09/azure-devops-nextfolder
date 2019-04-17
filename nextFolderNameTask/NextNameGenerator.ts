@@ -24,9 +24,9 @@ export function getDirItems(folderPath :string, filterTerm: string) : string
             // Do whatever you want to do with the file
             if (file.match('RC'))
             {
-                var number = file.replace('RC', '');
-                var nInt = parseInt(number);
-                console.log(nInt);
+                var numberString = file.replace(filterTerm, '');
+                var number = parseInt(numberString);
+                console.log(number);
             }
         }
         );
