@@ -4,7 +4,7 @@
   "description": "Set Azure DevOps variable(s) with next folder name incremented from existing names. E.g. RC3, if RC1 & RC2 already exist.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests/tests.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,9 @@
     "@types/node": "^11.13.4",
     "@types/q": "^1.5.2",
     "azure-pipelines-task-lib": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "mocha": "^6.1.3"
   }
 }
