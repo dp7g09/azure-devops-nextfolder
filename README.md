@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/dp7g09/DemoProject/_apis/build/status/NextFolderTask-Build?branchName=master)](https://dev.azure.com/dp7g09/DemoProject/_build/latest?definitionId=5&branchName=master)
+
 # Azure-devops-nextfolder
 Azure DevOps Build/Release Task. Set Azure DevOps variable(s) with next folder name incremented from existing names. E.g. RC3, if RC1 & RC2 already exist.
 
