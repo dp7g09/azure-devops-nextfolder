@@ -10,13 +10,13 @@ Azure DevOps Build/Release Task. Set Azure DevOps variable(s) with next folder n
 # How to compile & test
 ## To compile
 ```
-cd .\azure-devops-nextfolder2\nextFolderNameTask
+cd .\azure-devops-nextfolder\nextFolderNameTask
 npm install
 tsc
 ```
 
 ## To test (after compiling)
 ```
-cd .\azure-devops-nextfolder2\nextFolderNameTask
+cd .\azure-devops-nextfolder\nextFolderNameTask
 npm test
 ```
