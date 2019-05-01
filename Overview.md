@@ -7,7 +7,7 @@ Provide argument values,
 * which folder to look within
 * what prefix of folder names to check for
 
-Resut will be variable NFN.NextFolderName set to the value.
+Result will be variable NFN.NextFolderName set to the value.
 
 Finally:
 Publish to a path saying: \\Release-Machine\ReleaseCandidates\$(NFN.NextFolderName)
