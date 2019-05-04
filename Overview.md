@@ -12,6 +12,6 @@ Provide argument values,
 Result will be variable NFN.NextFolderName set to the value.
 
 Finally:
-Publish to a path saying: \\Release-Machine\ReleaseCandidates\$(NFN.NextFolderName).
+Publish to a path viz: `\\Release-Machine\ReleaseCandidates\$(NFN.NextFolderName)`.
 
 This task can be used in build as well as release pipeline.
