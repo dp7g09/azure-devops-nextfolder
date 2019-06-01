@@ -16,6 +16,12 @@
     "categories": [
         "Azure Pipelines"
     ],
+    "tags": [
+        "folder",
+        "directory",
+        "Release Candidate",
+        "RC"
+    ],
     "icons": {
         "default": "images/extension-icon.png"
     },
