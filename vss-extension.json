@@ -16,6 +16,12 @@
     "categories": [
         "Azure Pipelines"
     ],
+    "tags": [
+        "folder",
+        "directory",
+        "Release Candidate",
+        "RC"
+    ],
     "icons": {
         "default": "images/extension-icon.png"
     },
@@ -31,6 +37,24 @@
         "details": {
             "path": "Overview.md"
         }
+    },
+    "links": {
+        "home": {
+            "uri": "https://github.com/dp7g09/azure-devops-nextfolder"
+        },
+        "support": {
+            "uri": "https://github.com/dp7g09/azure-devops-nextfolder/issues"
+        },
+        "repository": {
+            "uri": "https://github.com/dp7g09/azure-devops-nextfolder"
+        },
+        "issues": {
+            "uri": "https://github.com/dp7g09/azure-devops-nextfolder/issues"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/dp7g09/azure-devops-nextfolder"
     },
     "files": [
         {

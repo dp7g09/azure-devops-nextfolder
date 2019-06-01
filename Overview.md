@@ -5,9 +5,9 @@ Azure DevOps Build/Release Task. Set Azure DevOps variable NFN.NextFolderName wi
 Provide argument values,
 
 * which folder to look within
-![Next Folder Name Usage](./images/screenshots/nfn1.png)
+![Next Folder Name Usage](https://raw.githubusercontent.com/dp7g09/azure-devops-nextfolder/master/images/screenshots/nfn1.png)
 * what prefix of folder names to check for
-![Next Folder Name Variable Name](./images/screenshots/nfn2.png)
+![Next Folder Name Variable Name](https://raw.githubusercontent.com/dp7g09/azure-devops-nextfolder/master/images/screenshots/nfn2.png)
 
 Result will be variable NFN.NextFolderName set to the value.
 
