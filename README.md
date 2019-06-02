@@ -3,6 +3,9 @@
 # Azure-devops-nextfolder
 Azure DevOps Build/Release Task. Set Azure DevOps variable(s) with next folder name incremented from existing names. E.g. RC3, if RC1 & RC2 already exist.
 
+# Published on Visual Studio Marketplace
+Get it from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dp7g09.next-folder-task)
+
 # Pre-requisites
 * The latest version of node, which can be downloaded [here](https://nodejs.org/en/download/).
 * Typescript Compiler 2.2.0 or greater, which can be downloaded [here](https://www.npmjs.com/package/typescript).
